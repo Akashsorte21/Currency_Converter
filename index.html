@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="user-select: none; -webkit-app-region:drag;">
+    <h1>Currency Converter</h1>
+    <img src="app-icon.svg" alt="" />
+    <div class="converter">
+      Please Enter Your Amount:<input
+        type="number"
+        id="amount"
+        placeholder="Enter amount"
+      />
+      <main>
+        <select id="from">
+          <!-- Add currency options here -->
+        </select>
+        <span>to</span>
+        <select id="to">
+          <!-- Add currency options here -->
+        </select>
+        <button id="convert">Convert</button>
+      </main>
+    </div>
+    <div class="result" id="result"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

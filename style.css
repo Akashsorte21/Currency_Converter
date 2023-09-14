@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(41, 93, 83, 1) 46%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+img {
+  width: 150px;
+}
+
+.converter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 16px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #eaf;
+}
+
+input {
+  outline: none;
+  color: #fff;
+}
+
+input::placeholder {
+  text-align: center;
+  color: antiquewhite;
+}
+
+select {
+  padding: 8px 30px;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+button {
+  padding: 10px 40px;
+  font-size: 16px;
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px;
+  margin-left: 25%;
+  border-radius: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #e7e4e4;
+}

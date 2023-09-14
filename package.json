@@ -1,0 +1,22 @@
+{
+  "name": "electron-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.1", 
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "electron-fetch": "^1.9.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1"
+  }
+}
